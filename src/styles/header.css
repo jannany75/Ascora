@@ -1,0 +1,25 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 24px;
+}
+
+.searchButton{
+
+    width:45px;
+    height:45px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--surface);
+
+    color:var(--text);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
