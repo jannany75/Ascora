@@ -4,7 +4,7 @@ import Splash from "./pages/Splash";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
-
+import CreateJourney from "./pages/CreateJourney";
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +13,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/create" element={<CreateJourney />} />
       </Routes>
     </BrowserRouter>
   );

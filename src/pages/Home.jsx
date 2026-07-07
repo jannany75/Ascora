@@ -2,6 +2,11 @@ import Header from "../components/layout/Header";
 import Greeting from "../components/home/Greeting";
 import ProgressCard from "../components/home/ProgressCard";
 import ContinueJourney from "../components/home/ContinueJourney";
+import BottomNav from "../components/layout/BottomNav";
+import CommunityFeed from "../components/home/CommunityFeed";
+import "../styles/communityfeed.css";
+import "../styles/communitycard.css";
+import "../styles/bottomnav.css";
 import "../styles/continuejourney.css";
 import "../styles/home.css";
 import "../styles/header.css";
@@ -17,15 +22,17 @@ function Home() {
       <Greeting />
 
       <ProgressCard
-    progress={68}
-    streak={4}
-    milestones={2}
-/>
-    <ContinueJourney
-    title="Build Ascora"
-    day={12}
-    progress={40}
-/>
+        progress={68}
+        streak={4}
+        milestones={2}
+      />
+      <ContinueJourney
+        title="Build Ascora"
+        day={12}
+        progress={40}
+      />
+      <CommunityFeed />
+      <BottomNav />
     </div>
   );
 }

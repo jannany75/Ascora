@@ -1,0 +1,45 @@
+.communityCard{
+
+    background:var(--surface);
+
+    padding:20px;
+
+    border-radius:20px;
+
+    margin-bottom:16px;
+
+}
+
+.communityTop{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:16px;
+
+}
+
+.avatar{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-weight:600;
+
+}

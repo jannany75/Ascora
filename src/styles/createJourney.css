@@ -1,0 +1,57 @@
+.createJourney{
+
+    min-height:100vh;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    padding:24px;
+
+}
+
+.createJourney h1{
+
+    margin-bottom:8px;
+
+}
+
+.createJourney p{
+
+    margin-bottom:32px;
+
+}
+
+form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+textarea{
+
+min-height:140px;
+
+padding:16px;
+
+border:none;
+
+outline:none;
+
+resize:none;
+
+border-radius:16px;
+
+background:var(--surface);
+
+color:var(--text);
+
+font-size:16px;
+
+font-family:inherit;
+
+}
